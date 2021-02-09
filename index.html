@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery Mobile Web App</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link href="styles/custom.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="themes/Course-Project-Theme.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<body>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script></head>
+
+<div id="page" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="panel" id="myPanel">
+	<h2>Panel Header</h2>
+	<ul data-role="listview" data-theme="c">
+	<li class="menu"><a href="#">Menu 1</a></li>
+	<li class="menu"><a href="#">Menu 2</a></li>
+	<li class="menu"><a href="#">Menu 3</a></li>
+	<li class="menu"><a href="#">Menu 4</a></li>
+	<li class="menu"><a href="#">Menu 5</a></li>
+	<li class="menu"><a href="#">Menu 6</a></li>
+	</ul>
+	<p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+	</div>
+
+
+	<div data-role="header" data-theme="a">
+	  <div class="logo"><img src="images/New.png" width="218" alt=""/></div>
+	</div>
+
+  <div data-role="header">
+    <h1>Tracy Brevig</h1>
+		<a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+  </div>
+
+	<div data-role="content">
+		<ul data-role="listview" data-theme="c">
+			 <li data-icon="info"><a href="#home">Home</a></li>
+      <li data-icon="info"><a href="#books">Books</a></li>
+			<li data-icon="info"><a href="#travel">Travel</a></li>
+			<li data-icon="info"><a href="#movies">Movies</a></li>
+			<li data-icon="info"><a href="#music">Music</a></li>
+			<li data-icon="info"><a href="#animals">Animals</a></li>
+			<li data-icon="info"><a href="#newpage1">New Page 1</a></li>
+			<li data-icon="info"><a href="#newpage2">New Page 2</a></li>
+			<li><a href="#grid">Grid</a></li>
+			<li data-icon="info"><a href="#form">Form</a></li>
+
+		</ul>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+
+<div id="home" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>Home</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+
+<div id="books" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+		<h1>Books</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+
+	</div>
+	<div data-role="footer" data-theme="a">
+		 <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+
+<div id="travel" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+		<h1>Travel</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+
+      </div>
+	<div data-role="footer" data-theme="a" >
+	  <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+
+<div id="movies" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+		<h1>Movies</h1>
+	</div>
+  <div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+
+	</div>
+	<div data-role="footer" data-theme="a">
+	 <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+<div data-role="page" id="music" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+		<h1>Music</h1>
+	</div>
+  <div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+
+	</div>
+	<div data-role="footer" data-theme="a">
+		 <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+<div data-role="page" id="animals" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+		<h1>Animals</h1>
+	</div>
+  <div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+
+	</div>
+	<div data-role="footer" data-theme="a">
+		 <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+
+<div id="newpage1" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>New Page 1</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Header</h3>
+	</div>
+
+	<div data-role="content">
+		<ol data-role="listview" data-theme="c" data-filter="true">
+			<li><a href="#newpage1">New Page 1</a></li>
+			<li><a href="#newpage2">New Page 2</a></li>
+			<li><a href="#newpage3">New Page 3</a></li>
+			<li><a href="#form">Form</a></li>
+
+		</ol>
+	</div>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	   <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+<div id="newpage2" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>New Page 2</h1>
+	</div>
+
+	<div data-role="content">
+		<ul data-role="listview" data-theme="c" data-filter="true">
+			<li><a href="#newpage1">New Page 1</a></li>
+			<li><a href="#newpage2">New Page 2</a></li>
+			<li><a href="#newpage3">New Page 3</a></li>
+			<li><a href="#form">Form</a></li>
+
+		</ul>
+	</div>
+	</div>
+	<div data-role="content">
+	  <h3>Header</h3>
+	  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	   <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+<div data-role="page" id="grid" data-theme="a" data-add-back-btn="true">
+<div data-role="header" data-theme="a" data-add-back-btn="true">
+<h1>Grid</h1>
+</div>
+<div data-role="content">
+<div class="ui-grid-c">
+<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
+<div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
+<div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px">Block D</div></div>
+</div><!-- /grid-c -->
+
+</div>
+	<div data-role="footer" data-theme="a">
+	   <h4>Tracy Brevig &copy; 2021</h4>
+	</div>
+</div>
+
+<div data-role="page" id="form" data-theme="a" data-add-back-btn="true">
+
+<div data-role="header" data-theme="a" data-add-back-btn="true">
+
+<h1>Form</h1>
+
+</div>
+
+<div data-role="content">
+
+<form action="form.php" method="post">
+
+<label for="fname">First name:</label>
+
+<input type="text" name="fname" id="fname">
+
+<label for="mname">Middle name:</label>
+
+<input type="text" name="mname" id="mname">
+
+<label for="lname">Last name:</label>
+
+<input type="text" name="lname" id="lname">
+
+<label for="pnumber">Phone Number:</label>
+
+<input type="text" name="pnumber" id="pnumber">
+
+<!-- Dropdown -->
+<select name = "dropdown">
+				 <option value = "Select Age" selected>Select Age</option>
+				 <option value='1'>0-18</option>
+		  	 <option value='2'>19-25</option>
+				 <option value='3'>26-35</option>
+				 <option value='4'>36-45</option>
+				 <option value='5'>46-55</option>
+				 <option value='6'>Over 55</option>
+			</select>
+
+
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+
+			<label for="favorites">Tell us one of your favorite things:</label>
+
+			<input type="text" name="favorites" id="favorites">
+
+<input type="reset" value="Reset Button">
+
+<input type="submit" value="Submit Button">
+
+
+<br/>
+<div id='result'></div>
+
+</form>
+
+</div>
+
+  <div data-role="footer" data-theme="a">
+    <h4>Footer</h4>
+  </div>
+</div>
+
+  <div data-role="footer" data-theme="a">
+    <h4>Footer</h4>
+  </div>
+</div>
+</body>
+</html>
+<script>
+(function() {
+
+	var rasm = document.querySelector('.localstorage');
+
+	function supportsLocalStorage() {
+		return typeof(Storage)!== 'undefined';
+	}
+
+	if (!supportsLocalStorage()) {
+		rasm.value = 'Your browser does not support localStorage.';
+	} else {
+		try {
+			setInterval(function() {
+				localStorage.setItem('autosave', rasm.value);
+			}, 1000);
+		} catch (e) {
+			if (e == QUOTA_EXCEEDED_ERR) {
+				alert('Quota exceeded!');
+			}
+		}
+		if (localStorage.getItem('autosave')) {
+			rasm.value = localStorage.getItem('autosave');
+		}
+		document.querySelector('.clear').onclick = function() {
+			rasm.value = '';
+			localStorage.removeItem('autosave');
+		};
+		document.querySelector('.empty').onclick = function() {
+			rasm.value = '';
+			localStorage.clear();
+		};
+	}
+
+})();
+</script>
